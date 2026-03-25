@@ -2,34 +2,41 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    /*Evitar que os elementos aumente de tamanho inesperadamente facilitando o controle da responsividade*/
+    list-style: none;
+    box-sizing: border-box;/*Evitar que os elementos aumente de tamanho inesperadamente facilitando o controle da responsividade*/
 }
-.cabecalho{
-background-color: #0D0D0D;
-color: white;
-padding: 1.5rem;/*poderia ser 24px*/
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-flex-direction: row;
-position: sticky; /*posicionamento do heander para */
-left: 0;
-top: 0;
-z-index: 999;
+
+.cabecalho {
+    background-color: #0D0D0D;
+    color: white;
+    padding: 1.5rem;
+    /*poderia ser 24px*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    position: sticky;
+    /*posicionamento do heander para */
+    left: 0;
+    top: 0;
+    z-index: 999;
 }
-.div-logo img{
-width: 35%;
+
+.div-logo img {
+    width: 20%;
 }
-.div-button a button{
-width: 5rem;
-padding: 0.5rem;
-background-color: #eff0d5;
-border: none;
-font-weight: 700;
-border-radius: 5px;
+
+.div-button a button {
+    width: 5rem;
+    padding: 0.5rem;
+    background-color: #eff0d5;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+      cursor: pointer;
 }
-.section-01{
+
+.section-01 {
     padding: 9rem;
     background-image: url(Imagens/Boutique\ de\ luxo\ Gucci\ em\ destaque.png);
     background-position: top;
@@ -43,16 +50,46 @@ border-radius: 5px;
     flex-wrap: wrap;
     color: white;
 }
-.div-01{
-background-color: #C9A227;
-color: white;
-text-align: center;
-font-size:2rem ;
-padding: 1rem;
-width: 25%;
-height: 20rem;
-min-width: 299px;
-}
-.div-02{
 
+.div-01 {
+    background-color: #C9A227;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 25%;
+    height: 20rem;
+    min-width: 299px;
+}
+
+.div-02 {
+    padding: 1rem;
+    width: 25%;
+    height: 20rem;
+    min-width: 299px;
+    background: linear-gradient(180deg,#01021064 5%, rgba(7, 15, 28, 0.745) 50%) , url(Imagens/Gemini_Generated_Image_kt7yynkt7yynkt7y.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.ul-div01 li a{
+    text-decoration: none;
+    background-color: #0D0D0D;
+    color: white;
+    padding: 4px; 
+    font-size: 1.3rem;
+     border-radius: 5px;
+}
+.ul-div01 li{
+    margin: 5px 5px;
+    
+}
+.fa-solid, .fa-shirt{
+    font-size: 1.3rem;
 }
