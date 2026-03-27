@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    box-sizing: border-box;/*Evitar que os elementos aumente de tamanho inesperadamente facilitando o controle da responsividade*/
+    box-sizing: border-box;
+    /*Evitar que os elementos aumente de tamanho inesperadamente facilitando o controle da responsividade*/
 }
 
 .cabecalho {
@@ -33,7 +34,7 @@
     border: none;
     font-weight: 700;
     border-radius: 5px;
-      cursor: pointer;
+    cursor: pointer;
 }
 
 .section-01 {
@@ -67,7 +68,7 @@
     width: 25%;
     height: 20rem;
     min-width: 299px;
-    background: linear-gradient(180deg,#01021064 5%, rgba(7, 15, 28, 0.745) 50%) , url(Imagens/Gemini_Generated_Image_kt7yynkt7yynkt7y.png) ;
+    background: linear-gradient(180deg, #01021064 5%, rgba(7, 15, 28, 0.745) 50%), url(Imagens/Gemini_Generated_Image_kt7yynkt7yynkt7y.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -78,18 +79,63 @@
     gap: 15px;
 
 }
-.ul-div01 li a{
+
+.ul-div01 li a {
     text-decoration: none;
     background-color: #0D0D0D;
     color: white;
-    padding: 4px; 
+    padding: 4px;
     font-size: 1.3rem;
-     border-radius: 5px;
+    border-radius: 5px;
 }
-.ul-div01 li{
+
+.ul-div01 li {
     margin: 5px 5px;
-    
+
 }
-.fa-solid, .fa-shirt{
+
+.fa-solid,
+.fa-shirt {
     font-size: 1.3rem;
+}
+
+.img-div {
+    padding: 3%;
+    background-image: url(Imagens/gray-painted-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5rem;
+    background-color: #0D0D0D;
+    flex-wrap: wrap;
+}
+
+.caixa {
+    width: 25%;
+    height: 22rem;
+    background-color: #01021064;
+    min-width: 299px;
+    font-size: 1.2rem;
+    color: white;
+    box-shadow: 10px 10px 20px white;
+    cursor: pointer;
+}
+.caixa:hover{
+    box-shadow: 12px 12px 12px rgba(7, 15, 28, 0.745);
+    transition: 0.8s;
+}
+.section-03{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5rem;
+    background-color: #0D0D0D;
+    flex-wrap: wrap;
 }
