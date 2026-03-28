@@ -106,7 +106,7 @@
     background-size: cover;
 }
 
-.section-02 {
+.section-02, .section-04 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,16 +126,54 @@
     box-shadow: 10px 10px 20px white;
     cursor: pointer;
 }
-.caixa:hover{
+
+.caixa:hover {
     box-shadow: 12px 12px 12px rgba(7, 15, 28, 0.745);
     transition: 0.8s;
 }
-.section-03{
-      display: flex;
+
+.section-03 {
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
     padding: 5rem;
     background-color: #0D0D0D;
+    color: white;
     flex-wrap: wrap;
+    
+}
+
+.div03,
+.div04 {
+    height: 15rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.content-text {
+    text-align: start;
+    margin: 1rem;
+    font-weight: 500;
+}
+
+.icon-div03 i {
+    font-size: 3rem;
+    margin-top: 1.2rem;
+
+}
+
+.button-div04 a button {
+    padding: 0.5rem;
+    background-color: #C9A227;
+    color: white;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.img-div {
+    background-image: url(Imagens/gray-painted-background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 3%;
 }
